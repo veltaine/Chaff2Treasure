@@ -360,6 +360,69 @@ nav > ul {
     border-radius: 10px;
   }
 
+
+  /* testing price buttons */
+  /* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
 /* footer section */
 
 footer {
@@ -604,6 +667,22 @@ div#section-title {
   border-radius: 50px;
 }
 
+
+/* Showcase Carousel Settings */
+#showcaseCarousel {
+  border-radius: 1%;
+    background-color: #7d7d7d;
+    background-image: url("/images/unsplash.jpg");
+    /* Background photo by:Eugene Golovesov
+    https://unsplash.com/@eugene_golovesov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
+    background-position: center center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 9% 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+        rgba(0, 0, 0, 0.19);
+    }
 
 /** MOBILE EXCLUSIVE SETTINGS **/
 
